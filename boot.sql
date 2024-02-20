@@ -1,3 +1,6 @@
+# data retrieval from country table in world database containing feilds like
+# continent,name(country), population,life expectancy ,indepyear etc
+
 -- 1.continet wise total population and country count
 SELECT 
     Continent, SUM(population), COUNT(Name)
