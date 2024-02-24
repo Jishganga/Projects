@@ -1,4 +1,4 @@
-#populating .The null values of the PropertyAddress field are replaced using the values of the same column having common parcelid
+#populating .The null values of the PropertyAddress field are replaced using the values of the same field having common parcelid
 update project.housingdata a
 join project.housingdata b
 on a.ParcelID=b.ParcelID and
